@@ -1,0 +1,591 @@
+
+<!DOCTYPE html>
+<html>
+      <!-- Thẻ <head> không liên quan gì tới đề mục -->
+      <!-- Thẻ <head< chỉ dùng để chứa những dl bổ sung, ko được hiển thị trên trang -->
+      <!-- Thẻ <head> được đặt ở giữa thẻ <html> và thẻ <body> -->
+      <!-- VD: <meta charset="utf-8"> -->
+          <head>
+          	      <meta charset="utf-8">
+          	      <!-- Thẻ <title> dùng để định nghĩa tiêu đề -->
+          	      <!-- Tiêu đề sẽ không hiển thị trên nd của trang nhưng sẽ hiển thị trên thanh tiêu đề của trình duyệt -->
+          	      <link rel="icon" href="nakroth.jpg">
+
+          	      <title>Học HTML </title>
+
+                       <!-- VD: CSS nội bộ -->
+                    <!--  <style> 
+                                body{background-color: lightgray;}
+                                h1 {color: blue}
+                                p { color: red }    
+                        </style>
+
+ -->
+          </head>
+          <!-- Trang trí nền bằng cách sữ dụng thuộc tính style -->
+          <!-- Cách sử dụng: <body style="background-color": màu nền bằng tiếng anh"> -->
+          <body style="background-color: AntiqueWhite;">
+                   <hr>
+                   <br>
+                   <!-- Liên kết: -->
+          	       <!-- Liên kết dc quy định bằng thẻ <a> -->
+                   <!--Đia chỉ của liên kết được quy định bằng thuộc tính href -->
+                   <!-- Cách dùng: <a href="link liên kết"> đặt tên cho liên kết </a> -->
+                   <a href="https://webvn.com/de-muc-trong-html/"> Trang web học html </a>
+                   <!-- <br> xuống hàng -->
+                   <br>
+                   <!-- Ảnh được quy định bằng thẻ <img>. Tên tệp tin src width (bề rộng), height (chiều cao) -->
+                   <!-- Cách sữ dụng: <img src="link ảnh" width="kích_thước" height="kích_cỡ" >-->
+                   <img src="https://phantomlandscapes.files.wordpress.com/2021/04/html-css-javascript.jpg?w=1024&h=576" width="300" height="200" >
+                   <br>
+                   <!-- Thuộc tính alt. Quy định đoạn văn bản thay thế khi một link ảnh không thể hiển thị vì một lý do nào đó-->
+                   <img src="hhhttps://phantomlandscapes.files.wordpress.com/2021/04/html-css-javascript.jpg?w=1024&h=576" alt="Logo HTML">
+                   <!-- Đề mục: được định nghĩa bằng các thẻ từ <h1> đến <h6> -->
+                   <!-- <h1> là tiêu đề lớn nhất và nhỏ dần về <h6> -->
+                   <h1>Tiêu Đề</h1>
+                   <h2>Tiêu Đề</h2>
+                   <h3>Tiêu Đề</h3>
+                   <h4>Tiêu Đề</h4>
+                   <h5>Tiêu Đề</h5>
+                   <h6>Tiêu Đề</h6>
+                   <!-- Dòng kẻ hàng: dùng thẻ <hr> để tạo đường kẻ ngang -->
+                   <hr>
+                   <hr>
+                   <br>
+                   <!-- Thẻ <p> được dùng để định nghĩa đoạn văn bản -->
+                   <p>Chúng ta đã nghe nói nhiều về lập trình web với HTML. Vậy, HTML là gì ? HTML là ngôn ngữ  đánh dấu cho việc mô tả các tài liệu web (trang web).
+
+                      HTML là viết tắt của Hyper Text Markup Language (Ngôn ngữ Đánh dấu Siêu văn bản)
+                      Ngôn ngữ đánh dấu là một tập hợp các thẻ đánh dấu
+                      Các tài liệu HTML được mô tả bằng các thẻ HTML
+                      Mỗi thẻ HTML mô tả những nội dung khác nhau</p>
+
+                   <!-- Thẻ <pre> được dùng để giữ nguyên định dạng của đoạn văn bản -->
+
+                   	<pre>Chúng ta đã nghe nói nhiều về lập trình web với HTML. Vậy, HTML là gì ? HTML là ngôn ngữ đánh dấu cho việc mô tả các tài liệu web (trang web).
+
+                    HTML là viết tắt của Hyper Text Markup Language (Ngôn ngữ Đánh dấu Siêu văn bản)
+                    Ngôn ngữ đánh dấu là một tập hợp các thẻ đánh dấu
+                    Các tài liệu HTML được mô tả bằng các thẻ HTML
+                    Mỗi thẻ HTML mô tả những nội dung khác nhau</pre>
+                    
+                    <!-- Trang trí trong html thì dùng thuộc tính style -->
+                    <!-- Thuộc tính style -->
+                    <!-- style="thuộc tính": giá trị -->
+
+                    <!-- Màu chữ: thuộc tính color đùng để định nghĩa màu -->
+
+                    <h1 style="color: red"> Chữ Màu </h1>
+                    <p style="color: violet"> Chữ màu </p>
+                    <!-- style ="font-size:300%" -->
+                    <br>
+                    <hr>
+                    <!-- Kiểu chữ: thuộc tính font-family dc sd để thay đổi kiểu chữ của 1 thành phần -->
+                    <h1 style="font-family: verdana;"> Kiểu chữ trong HTML </h1>
+                    <h1 style="font-family: courier;"> Kiểu chữ trong HTML </h1>
+                    <hr>
+                    <!-- Cỡ chữ: thuộc tính font-size quy định cỡ chữ -->
+                    <h1 style="font-size:300%"> Cỡ chữ trong HTML </h1>
+                    <p style="font-size:200%"> Cỡ chữ trong HTML </p>
+                    <hr>
+                    <!-- Căn lề văn bản: thuộc tính text-align được sd để căn lề văn bản -->
+                    <!-- left hoặc start: căn lề trái -->
+                    <!-- right hoặc end: căn lề phải -->
+                    <!-- center: căn lề giữa -->
+                    <!-- justify: dãn đều chữ -->
+                    <h1 style="text-align: left;"> Căn lề trái </h1>
+                    <h1 style="text-align: end"> Căn lề phải </h1>
+                    <h1 style="text-align: center"> Căn lề giữa </h1> 
+                    <h1 style="text-align: justify"> Giản đều chữ </h1>
+                    <hr>
+                    <!-- Định dạng chữ: thẻ <b> dùng để in đậm chữ -->
+                        <p> Đùng để <b>in đậm </b> chữ </p>
+                    <!-- Thẻ <strong> cũng dùng để in đậm chữ nhưng với ý nghĩa quan trọng -->
+                        <p> Đùng để <strong>in đậm với ý nghĩa quan trọng</strong> </p>
+                    <!-- In nghiêng: thẻ <i> dùng để in nghiêng chữ -->
+                        <p> Đùng để <i>in nghiêng </i>chữ</p>
+                    <!-- In nghiêng và nhấn mạnh: thẻ <em> dùng để in nghiêng nhưng với ý nghĩa nhấn mạnh -->
+                        <p>Đùng để <em>in nghiêng với ý nghĩa nhấn mạnh</em></p>
+                        <hr>
+                    <!-- Thu nhỏ chữ: thẻ <small> dùng để thu nhỏ thẻ -->
+                        <p>Đùng để <small>thu nhỏ</small> chữ</p>
+                    <!-- Dánh dấu xóa chữ: thẻ <del> dùng để đánh dấu chữ đã bị xóa -->
+                        <p>Dùng để dánh dấu chữ đã bị <del>xóa</del></p>
+                    <!-- Dánh dấu chữ dc chèn thêm: thẻ <ins> dùng để dánh dấu chữ dc chèn thêm vào đoạn văn -->
+                        <p>Dùng để dánh dấu chữ được <ins>chèn thêm</ins></p>
+                    <!-- Dánh dấu chữ ở dưới: thẻ <sub> dùng để viết chữ ở dưới -->
+                        <p>Dùng để dánh dấu chữ <sub>ở dưới</sub></p>
+                    <!-- Dánh dấu chữ ở dưới: thẻ <sup> dùng để viết chữ trên -->
+                        <p>Dùng để dánh dấu chữ <sup>ở trên</sup></p>
+                            <hr>
+                    <!-- Trích dẫn trong html -->
+                    <!-- Thẻ <q> dc sd để trích dẫn đoạn ngắn -->
+                    <!-- Các trình duyệt thường thêm dấu nháy ở 2 đầu đoạn văn bản dc trích dẫn -->
+                        <p>Các trình duyệt thường thêm <q>dấu nháy</q> ở 2 đầu đoạn văn bản để trích dẫn</p>
+                        <br>
+                        <hr>
+                    <!-- Trích dẫn trong html -->
+                    <!-- Thẻ <q> cho trích dẫn ngắn: thẻ <q> dc sd để trích dẫn đoạn văn ngắn -->
+                    <!-- Cách trình duyệt thường thêm dấu nhấy " " ở 2 dầu đoạn văn bản được trích dẫn -->
+                        <p>Tôi tên là <q>Nguyễn Văn Phát</q></p>
+                         <hr>
+                    <!-- Thẻ <blockquote>: đc sd để trích dẫn cả đoạn. Các trình duyệt thường hụt lùi vào 1 khoảng khi sd thẻ <blockquote> -->
+                        <p>Các trình duyệt thường thụt lùi vào một khoảng khi sử dụng thẻ blockquote</p>
+                        <blockquote>Quỹ Quốc tế Bảo vệ Thiên nhiên (WWF) được thành lập ngày 11 tháng 9 năm 1961 tại Thụy Sĩ, với tên ban đầu là World Wildlife Fund. Ngay năm đầu tiên, WWF đã có chi nhánh tại Thụy Sĩ, Vương quốc Liên hiệp Anh và Hoa Kỳ, sau đó là những chi nhánh tại Áo, Đức, Hà Lan, và Nam Phi. Ngày nay, WWF có chi nhánh tại 59 quốc gia trên thế giới.</blockquote>
+                        <hr>
+                    <!-- Thẻ <abbr>: dc sd để giải nghĩa cho 1 chữ hay 1 từ viết tắt -->
+                    <!-- Sd thẻ <abbr> để cung cấp thông tin của từ viết tắt cho trình duyệt, hệ thống dịch hoặc các bộ máy tìm kiếm -->
+                        <p> <abbr title="Tổ Chức Y Tế Thế Giới"> WHO </abbr> được thành lập năm 1948 </p>
+                        <br>
+                        <hr>
+                    <!-- Thẻ <address> : dc sd để cung cấp thông tin liên hệ (tác giả/ người sở hữu) của tài liệu hay bài viết -->
+                    <!-- Thông tin liên hệ thường được hiển thị dưới dạng in nghiêng. Hầu hết các trình duyệt sẽ thêm một ô trống ở trc và sau thẻ -->
+                         <p>Tên tác giả: <address>Nguyễn Văn Phát</address></p>
+                         <hr>
+                         <br>
+                    <!-- Thẻ <cite>: sd để viết tên tác giả, trình duyệt thường hiển thị in nghiêng của thẻ <cite> -->
+                         <img src="nakroth.jpg" width="400" height="200" alt="Nakroth">
+                         <p><cite>nakroth</cite> của tác giả Nguyễn Văn Phát. Sinh năm 2003</p>
+                         <hr>
+                         <br>
+                    <!-- Thẻ <bdo>: sd để đảo chiều chữ trong html -->
+                    <!-- Nếu trình duyệt của bạn hổ trợ thẻ bdo, đoạn văn bản dưới dấy sẽ có chiều từ phải qua trái -->
+                        <bdo dir="rtl">Nguyễn Văn Phát</bdo>
+                        <hr>
+                        <br>
+                    <!-- Định dạng công thức toán học: thẻ <var> dc sd để định dạng công thức toán học -->
+                        <p>Công thức tính chu vi hình chữ nhật:<var> P = (a+b) x 2</var></p>
+                        <p>Diện tích hình chữ nhật: <var>S = a x b</var></p>
+                        <hr>
+                        <br>
+                        <h1 style="font-size:700%"> <b><big>Trang trí html với CSS </big> </b></h1>
+                        <p>Có 3 cách chèn CSS vào HTMl:</p>
+                        <h1 style="color: red">1.CSS Trực Tiếp (Inline CSS): </h1>
+                        <blockquote>Kiểu CSS trực tiếp chỉ hữu dụng khi sữ đụng 1 kiểu <u>trang trí cho một thành thẻ.</u></blockquote>
+                        <blockquote>CSS trực tiếp được viết thông qua thuộc tính <u><b>style.</b></u></blockquote>
+                        <blockquote>VD:</blockquote>
+                        <h1 style="color: blue"> Đây là đề mục xanh khi sữ dụng CSS trực tiếp </h1>
+                        <h1 style="color:red"> 2.CSS Nội Bộ (Internal CSS): </h1>
+                        <blockquote>Sữ dụng CSS nội bộ có thể trang trí cho <u><i><b>tất cả các thành phần trong html.</b></i></u></blockquote>
+                        <blockquote>CSS nội bộ được viết trong phần <b>&lt;head&gt;</b>, sữ dụng thẻ <b>&lt;style&gt;</b></blockquote>
+                        <blockquote>VD:</blockquote>
+                        <!-- <style> 
+                                body{background-color: lightgray;}
+                                h1 {color: blue}
+                                p { color: red }    
+                        </style>
+ -->
+                        <h1 style="color:red"> 3. CSS Ngoài (External CSS): </h1> 
+                        <blockquote>Hãy tưởng tượng, khi bạn có rất nhiều trạng HTML có cùng kiểu trang trí, nếu sd <b><i>CSS nội bộ</i></b> hoặc <b><i>CSS trực tiếp</i></b> bạn sẽ phải lặp đi lặp lại ở mỗi trang. Khi bạn muốn thay đổi cách trang trí của 1 thành phần nào đó, bạn phải sữ dụng các trang <b><i>CSS bên ngoài</i></b> đặc biệt thủ dụng khi cần cách trang trí sử dụng cho nhiều trang. Bạn có thể thay đổi kiểu trang trí trên tất cả các trang bằng cách thay đổi 1 tệp trong CSS duy nhất. </blockquote>
+                        <blockquote>VD:</blockquote>
+                        <blockquote>&lt;link rel="stylesheet" href="dsfdsfds.css&gt;"</blockquote>
+                        <hr><br>
+                        <h1 style="color: red">Kiểu chữ trong CSS</h1>
+                        <blockquote>Thuộc tính <b><i>color</i></b> quy định màu chữ.</blockquote>
+                        <blockquote>Thuộc tính <b><i>font-family</i></b> quy định kiểu chữ.</blockquote>
+                        <blockquote>Thuộc tính <b><i>font-size</i></b> quy định cỡ chữ.</blockquote>
+                        <blockquote>VD:</blockquote>
+                        <p style="color: red"> &lt;head&gt; </p>
+                        <p style="color:red"> &lt;style&gt; </p>
+                         <blockquote>h1 {</blockquote>
+                         <blockquote>color: blue;</blockquote>
+                         <blockquote>font-family: tahoma;</blockquote>
+                         <blockquote>font-size: 200%</blockquote>
+                         <blockquote>}</blockquote>
+                         <blockquote>p {</blockquote>
+                         <blockquote>color: red;</blockquote>
+                        <blockquote>font-family: Arial;</blockquote>
+                        <blockquote>font-size: 120%</blockquote>
+                        <blockquote>}</blockquote>
+                        <p style="color:red"> &lt;/style&gt; </p>
+                        <p style="color: red"> &lt;/head&gt; </p>
+
+                         <hr><br>
+                         <h1 style="color:red"> Mô hình hộp trong CSS </h1>
+                         <blockquote>Mỗi thành phần trong HTML đều có 1 khung bao quanh, ngay cả khi bạn không nhìn thấy nó.</blockquote>
+                         <blockquote> <b>1.</b>Thuộc tính <b><i>border</i></b> trong css quy định đường viền bao quanh 1 thành phần trong html.</blockquote>
+                         <blockquote>VD:</blockquote>
+                        <p style="color: red"> &lt;head&gt; </p>
+                        <p style="color:red"> &lt;style&gt; </p>
+                         <blockquote>p {</blockquote>
+                         <blockquote>border: <b>1xp</b> solid <b>red</b>;</blockquote>
+                         <blockquote>}</blockquote>
+                        <p style="color:red"> &lt;/style&gt; </p>
+                        <p style="color: red"> &lt;/head&gt; </p>
+                        <hr>
+                        <blockquote> <b>2.</b> Thuộc tính <b>  padding</b> trong CSS quy định khoảng cách từ đường viền đến các thành phần bên trong.</blockquote>
+                        <blockquote>VD:</blockquote>
+                         <p style="color: red"> &lt;head&gt; </p>
+                        <p style="color:red"> &lt;style&gt; </p>
+
+                          <blockquote>p {</blockquote>
+                          <blockquote>border: <b>1px</b> solid <b>grey</b></blockquote>
+                          <blockquote>padding: <b>10px</b></blockquote>
+                          <blockquote>}</blockquote>
+                        <p style="color:red"> &lt;/style&gt; </p>
+                        <p style="color: red"> &lt;/head&gt; </p>
+                        <hr>
+                        <blockquote><b>3.</b> Thuộc tính <b>margin</b> trong CSS quy định khoảng cách từ đường viền đến các thành phần bên ngoài.</blockquote>
+                        <p style="color: red"> &lt;head&gt; </p>
+                        <p style="color:red"> &lt;style&gt; </p>
+                        <blockquote>p {</blockquote>
+                        <blockquote>border: <b>1px</b> solid <b>yellow;</b></blockquote>
+                        <blockquote>padding: <b>10px;</b></blockquote>
+                        <blockquote>margin: <b>30px;</b></blockquote>
+                        <p style="color:red"> &lt;/style&gt; </p>
+                        <p style="color: red"> &lt;/head&gt; </p>     
+                        
+                        <!-- <style>
+                            p {
+                                border: 1px solid red;
+                                padding: 10px;
+                                margin: 30px;
+                            }
+                        </style> -->
+
+                        <hr>
+                        <br>
+                        <h1 style="color:red">Thuộc tính <b><i><u>id</u></i></b> trong CSS</h1>
+                        <blockquote>Tất cả các vd bên trên đều sd CSS để trang trí các thành phần trong html theo cách thông thường.</blockquote>
+                        <blockquote>Để áp dụng 1 kiểu trang trí cho 1 thành phần đặc biệt, đầu tiên ta sẽ thêm một thuộc tính <b><u>id</u></b> vào thành phần đó:</blockquote>
+                        <blockquote>Công thức:</blockquote>
+                        <blockquote>&lt;p <b>id</b> = "element1"&gt; Đoạn văn bản có thuôc tính <b>id</b> &lt;p&gt;</blockquote>
+                        <blockquote>VD:</blockquote>
+
+                         <p style="color: red"> &lt;head&gt; </p>
+                        <p style="color:red"> &lt;style&gt; </p>
+
+                        <blockquote>p<b>#</b>element1 {</blockquote>
+                        <blockquote>color: blue;</blockquote>
+                        <blockquote>}</blockquote>
+                        <p style="color:red"> &lt;/style&gt; </p>
+                        <p style="color: red"> &lt;/head&gt; </p>
+                        <p style="color:red"> &lt;body&gt; </p>
+                        <blockquote>&lt;p <b>id</b> = "element1"&gt; Đoạn văn có thuộc tính <b>id</b>&lt;/p&gt;</blockquote>
+                        <p style="color:red"> &lt;/body&gt; </p>
+                        <style>
+                            p#phat {
+
+                                color: violet;
+                                font-size: 400%;
+                            }
+
+
+                         </style>
+                         <p id="phat" > Đoạn văn có thuộc tính id </p>
+                         <hr>
+                         <br>
+                         <h1 style="color: red;"> Thuộc tính <b><u><i>class</i></u></b> trog CSS </h1>
+                         <blockquote>Để sd CSS trang trí cho 1 nhóm các thành phần đặt biệt, đầu tiên ta sẽ thêm thuộc tính <b><u>class</u></b> vào thành phần đó.</blockquote>
+                         <blockquote>Công thức:</blockquote>
+                         <blockquote>&lt; p <b>class</b>="classname"&gt; Đoạn có thuộc tính <b><u>class</u></b> &lt;/p&gt;</blockquote>
+                         <br>
+                         <blockquote>Bây giờ bạn có thể trang trí tất cả các thành phần có cung tên <b><u>class.</u></b></blockquote>
+                         <blockquote>VD:</blockquote>
+                         <p style="color: red"> &lt;head&gt; </p>
+                        <p style="color:red"> &lt;style&gt; </p>
+                        <blockquote>p.classname {</blockquote>
+                        <blockquote>color: red;</blockquote>
+                        <blockquote>}</blockquote>
+
+                        <p style="color:red"> &lt;/style&gt; </p>
+                        <p style="color: red"> &lt;/head&gt; </p>
+                        <p style="color: red">&lt;body&gt;</p>
+                        <blockquote>&lt; p <b>class</b>= "classname"&gt; Đây là đoạn văn có thuộc tính <b>class</b>&lt;/p&gt;</blockquote>
+                        <p style="color: red"> &lt;/body&gt; </p>
+                        <br>
+                        <style> p.phat1 {
+
+                        color: green;
+                        font-size:  400%;
+                        } </style>
+                        <p class="phat1"> Đây là đoạn văn có thuộc tính <b>class</b> trong CSS</p>
+                        <hr>
+                        <br>
+                        <h1 style="color:red"> Liên kết trong HTML </h1>
+                        <blockquote style="color:red"><b>Liên kết trong html-Siêu liên kết:</b></blockquote>
+                        <blockquote>Các thành phần trong html dc gọi là những siêu liên kết.
+                        </blockquote>
+                        <blockquote>Siêu liên kết là 1 đoạn chữ hoặc một bức ảnh mà bạn có thể nhấn vào để chuyển tới một trang khác.</blockquote>
+                        <h1 style="color:red"> Liên kết trong html- Cú Pháp </h1>
+                        <blockquote>Trong html, các liên kết được tạo bởi thẻ&lt;a&gt;</blockquote>
+                        <blockquote>Công thức:</blockquote>
+                        <blockquote style="border: 1px solid red; padding: 10px; margin: 10px" >&lt;a href="url"&gt; tên liên kết &lt;/a&gt;</blockquote>
+                        <h1 style="color:red">Liên kết nội bộ</h1>
+                        <blockquote>Liên ở VD trên sd đường dẫn tuyệt đối (Địa chỉ dầy dủ)</blockquote>
+                        <blockquote>Một liên kết nội bộ (liên kết tới trang khác trên cùng 1 website) là 1 địa chỉ tương đối (Không có phần <b><u>http://....</u></b>)</blockquote>
+                        <h1 style="color:red"> Màu sắc và biểu tượng </h1>
+                        <blockquote>Khi bạn di chuột vào 1 liên kết, sẽ có hai điều xãy ra:</blockquote>
+                        <blockquote>1.Chuột sẽ chuyển từ dạng mũi tên sang dạng hình 1 bàn tay nhỏ.</blockquote>
+                        <blockquote>2.Màu sắc của liên kết thay đổi.</blockquote>
+                        <blockquote>-<b>Mặc định</b> liên kết trên các trình duyệt sẽ được hiển thị như sau:</blockquote>
+                        <blockquote>.Một liên kết chưa được nhấn vào sẽ được gạch chân và có màu xanh.</blockquote>
+                        <blockquote>.Một liên kết đã được nhấn vào sẻ được gạch chân vào có màu tím.</blockquote>
+                        <blockquote>.Khi 1 liên kết được nhấn sẽ được gạch chân và có màu đỏ.</blockquote>
+                        <h1 style="color:red"> Thuộc tính target </h1>
+                        <blockquote>Thuộc tính <b><i>target</i></b> quy định vị trí mở của trang được liên kết.</blockquote>
+                        <blockquote>Trong vd dưới dây liên kết sẽ được mỡ trong 1 <b>cửa số mới</b> hoặc 1 <b>1 tab mới</b>.</blockquote>
+                        <blockquote>VD:</blockquote>
+                        <p style="color:red"> &lt;body&gt; </p>
+                        <blockquote>&lt; a href="url trang web" <b>target = "_blank"</b> >Name &lt;/a&gt;</blockquote>
+                         
+                         <br>
+                         <a href="https://webvn.com/lien-ket-trong-html/" target="_blank">Trang web <b>có</b> target</a>
+                         <br>
+                         <a href="https://webvn.com/lien-ket-trong-html/"> Trang web <b>không</b> có terget </a>
+                         <hr>
+                         <br>
+                         <blockquote><b>Một số cái gì đó mới:</b></blockquote>
+                         <blockquote><b>_blank</b>: Mở liên kết trong 1 cửa sổ mới hoặc tab mới.</blockquote>
+                         <blockquote><b>_self</b>: Mở liên kết tại chính cửa sổ hiện tại (Mặc định).</blockquote>
+                         <blockquote><b>_parent</b>: Mở liên kết tại frame ngoài.</blockquote>
+                         <blockquote><b>_top</b>: Mở liên kết tại cửa sổ hiện tại ( Thoát ra khỏi frame mếu dang ở trong frame ).</blockquote>
+                         <blockquote><b>Tên frame</b>: Mở liên kết theo tên của frame.</blockquote>
+                         <blockquote>Nếu trang của bạn dang nằm ở trong 1 frame, bạn có thể dùng <b>target = "_top"</b> để thoát khỏi frame.</blockquote>
+                         <br>
+                         <h1 style="color: red">Liên kết trong HTML - Sữ dụng Ảnh </h1>
+                         <blockquote>Cách phổ biến nhất khi sữ dụng ảnh trong liên kết là:</blockquote>
+                         <p style="color:red"> &lt;body&gt; </p>
+                         <blockquote>&lt;<b>a</b> href = "liên kết web" &gt;</blockquote>
+                         <blockquote>&lt;img src ="Ảnh" alt ="Tên" style = "with:42px; height:42px; border:0" </blockquote>
+                         <blockquote>&lt;<b>/a</b>&gt;</blockquote>
+                         <blockquote>Chúng ta đã thêm <b>"border:0"</b> để tránh trình duyệt Internet Explorer 9 hiển thị <b>viền xanh</b></blockquote>
+                         <blockquote>VD: Bấm thử vô ảnh</blockquote>
+                         <br>
+                         <a href="https://banthe24h.vn/tin-tuc/cach-choi-nakroth-9267.html">
+                            <img src="nakroth.jpg" alt="Cách chơi Nakroth" style="width: 400px; height: 200px;">
+                        </a>
+                         <a href="https://banthe24h.vn/tin-tuc/cach-choi-nakroth-9267.html">
+                            <img src="nakroth.jpg" alt="Cách chơi Nakroth"width=400 height=200>
+                        </a>
+                        <hr>
+                        <br>
+                        <h1 style="color:red">Liên kết id</h1>
+                        <blockquote>Thuộc tính <b>id</b> có thể được sữ dụng để tạo 1 chỉ mục trong trang html.</blockquote>
+                        <blockquote>Chỉ mục không không hiển thị trên trình duyệt.</blockquote>
+                        <blockquote>VD: Thêm thuộc tính <b>id</b> vào bất kỳ thẻ &lt;a&gt; nào:</blockquote>
+                        <blockquote>&lt;a <b>id</b> ="<b>marked</b>"&gt; khu vực được đánh dấu &lt;/a&gt;</blockquote>
+                        <blockquote>Sau đó tạo một liên kết tới chỉ mục (khu vực được dánh dấu):</blockquote>
+                        <blockquote>&lt;a <b>href</b>="<b>#marked</b>"&gt; Tới khu vực được dánh dấu &lt;/a&gt;</blockquote>
+                        <blockquote>Hoặc tạo 1 liên kết tới chỉ mục từ 1 trang khác:</blockquote>
+                        <blockquote>&lt;a <b>href </b>= "<b>liên kết sau đó là  #marked</b>" &gt; Tới khu vực được đánh dấu &lt;/a&gt;</blockquote>
+                        <blockquote>VD: Cụ thể</blockquote>
+                        <p style="color:red">&lt;body&gt;</p>
+                        <blockquote>&lt;p&gt; &lt;a <b>href</b>="<b>#block3</b>"&gt; Xem block 3 &lt;/a&gt; &lt;/p&gt;</blockquote>
+                         <blockquote>&lt;<b>h2</b>&gt;Khu vực 1 &lt;<b>/h2</b>&gt;</blockquote>
+                         <blockquote>&nbsp; &nbsp; &lt;p&gt;Nội dung block &lt;/p&gt;</blockquote>
+
+                         <blockquote>&lt;<b>h2</b>&gt;Khu vực 2 &lt;<b>/h2</b>&gt;</blockquote>
+                         <blockquote>&nbsp; &nbsp; &lt;p&gt;Nội dung block &lt;/p&gt;</blockquote>
+
+                         <blockquote>&lt;<b>h2</b>&gt; &lt;a id="<b>block3</b>"&gt; Khu vực 3 &lt;/a&gt; &lt;<b>/h2</b>&gt;</blockquote>
+                         <blockquote>&nbsp; &nbsp; &lt;p&gt;Nội dung block &lt;/p&gt;</blockquote>
+
+                         <blockquote>&lt;<b>h2</b>&gt;Khu vực 4 &lt;<b>/h2</b>&gt;</blockquote>
+                         <blockquote>&nbsp; &nbsp; &lt;p&gt;Nội dung block &lt;/p&gt;</blockquote>
+                         <blockquote>ÁP dụng:</blockquote>
+                         <p><a href="#block3">Xem block 3 </a></p>
+                         <h2>Khu vực 1</h2>
+                         <p>Nội dung block</p>
+
+                         <h2>Khu vực 2</h2>
+                         <p>Nội dung block</p>
+
+                         <h2> <a id="block3"> Khu vực 3 </a></h2>
+                         <p>Nội dung block</p>
+
+                         <h2>Khu vực 4</h2>
+                         <p>Nội dung block</p>
+
+                         <h2>Khu vực 5</h2>
+                         <p>Nội dung block</p>
+
+                         <h2>Khu vực 6</h2>
+                         <p>Nội dung block</p>
+                         <hr>
+                         <br>
+                         <h1 style="color:red" size="200"> Ảnh trong HTML </h1>
+                         <br>
+                         <blockquote>Trong HTML, ảnh được quy định trong thẻ &lt;img&gt;.</blockquote>
+                         <blockquote>&lt;<b>img</b>&gt; là 1 thẻ rỗng, chỉ chứa các thuộc tính và <b>không có thẻ đóng.</b></blockquote>
+                         <blockquote>Thuộc tính <b>src</b> quy định địa chỉ của ảnh</blockquote>
+                         <blockquote><b>Cú pháp:</b> &lt;img src="url" alt="miêu tả ảnh"&gt;</blockquote>
+                         <h1 style="color:red">Thuộc tính alt</h1>
+                         <blockquote>Thuộc tính <b>alt</b> chứa 1 đoạn miêu tả về ảnh, sd để thay thế cho ảnh trong trường hợp ảnh ko hiển thị được</blockquote>
+                         <blockquote><mark>Bắt buộc</mark> phải sữ dụng thuộc tính <b>alt</b> khi chèn ảnh vào web. Một trang HTML sẽ là ko đúng chuẩn nếu ảnh thiếu đi thuộc tính <b>alt</b></blockquote>
+                         <p style="color:red"> Thuộc tính width </p>
+                         <blockquote>-Thuộc tính width dùng để thiết lập chiều rộng của tấm hình.</blockquote>
+                         <blockquote>-Để sd thuộc tính <b>width</b> thì chúng ta thêm nó vào bên trong thẻ &lt;<b>img</b>&gt;, với cú pháp như sau:</blockquote>
+                         <blockquote><b>width="value"</b></blockquote>
+                         <blockquote>-Trong đó, <mark>value</mark> được xác định dựa theo một trong hai loại đơn vị sau:</blockquote>
+                         <p style="color:red"> &nbsp;px:</p>
+                         <blockquote>-Chiều rộng của tấm hình sẽ được xác định dựa theo một giá trị <b>pixel cụ thể.</b></blockquote>
+                         <blockquote>-VD:, nếu tôi viết <b>width="400"</b> thì điều đó có nghĩa là tấm hình sẽ hiển thị với kích thước chiều rộng là 400 pixel.</blockquote>
+                         <p style="color:red"> % : </p>
+                         <blockquote>-Chiều rộng của tấm hình sẽ được xác định dựa theo tỷ lệ phần trăm "chiều rộng phần nội dung" của phần tử của nó.</blockquote>
+                         <blockquote>-VD, nếu phần tử của tấm hình có chiều rộng 500 pixel, tôi viết <b>width="40%" thì điều đó có nghĩa là tấm hình sẽ được hiển thị với kích thước chiều rộng là 200 pixel</b></blockquote>
+                         <h1 style="color:red"> Chú ý: </h1> <blockquote>Nếu chúng ta chỉ sd thuộc tính <b>width</b> để thiết lập chiều rộng cho tấm hình mà ko sữ dụng thuộc tính <b>height</b> để thiết lập lại chiều cao cho tấm hình <mark>thì mặc định chiều cao của tấm hình sẽ tự động tăng hoặc giảm để giữ tỷ lệ so với chiều rộng của tấm hình</mark> ( VD như tôi có một tấm hình với kích thước gốc là <b>200x500</b>, nếu tôi chỉ sữ dụng duy nhất mỗi thuộc tính <b>width</b> để thiết lập lại chiều rộng cho tấm hình là <mark>100 pixel</mark> thì khi hiển thị, tấm hình sẽ có <mark>chiều cao là 250 pixel</mark>)</blockquote>
+                         <h1 style="color:red"> 3) Thiết lập vị trí của hình ảnh so với văn bản </h1>
+                         <blockquote>-Trong trang web, việc thiết lập vị trí ảnh so với văn bản nằm xung quanh cũng đóng 1 vai trò tương đối quan trọng (bởi vì nó mang tính chất thẩm mỹ cho trang web)</blockquote>
+                         <blockquote>-Để thiết lập vị trí của tấm hình so với văn bản nằm ở xung quanh thì chúng ta thêm thuộc tính <b><mark>align</mark></b> vào bên trong thẻ <b>img</b> với cú pháp như sau:</blockquote>
+                         
+                         <blockquote style="border: 1px solid red; padding: 10px;"><b><mark>align</mark></b> = "<b>value</b>"</blockquote>
+                         <blockquote>-Trong đó, <b style="color:red">
+                             value
+                         </b> có thể được xác định dựa theo một trong <b style="color:red">5</b> loại giá trị sau dây:</blockquote>
+                         <blockquote><b style="color:red">left</b>: Tấm hình được đẩy sang bên trái, phần văn bản (được khai báo phía sau nó) sữ năm bên phải và bao xung quanh tấm hình</blockquote>
+                         <blockquote><b style="color:red">right</b>: Tấm hình sẽ được dẩy sang bên phải, phần văn bản (được khai báo phía sau nó) sẽ nằm bên trái và bao xung quanh tấm hình.</blockquote>
+                         <blockquote><b style="color:red">top</b>: Dòng đầu tiên của phần văn bản ( được khai báo phía sau tấm hình) sẽ nằm ở vị trí cao nhất so với tấm hình. </blockquote>
+                         <blockquote><b style="color:red">middle</b>: Dòng đầu tiên của phần văn bản ( được khai báo phía sau tấm hình) sẽ nằm ở vị trí trung bình (giữa) so với tấm hình</blockquote>
+                         <blockquote><b style="color:red">bottom</b>: Dòng đầu tiên của phần văn bản (được khai báo phía sau tấm hình) sẽ nằm ở vị trí thấp nhất so với tấm hình.</blockquote>
+                         <blockquote><b style="color:red">Áp dụng: </b></blockquote>
+                         <p> <img src="nakroth.jpg" align="left" style="width: 200px; height: 200px;">
+                             <img src="nakroth.jpg" align="right" style="width: 200px; height: 200px;"> 
+                             Thời thơ ấu của Nakroth
+Tuy được sinh ra trong một gia đình quý tộc nhưng không mang sự ngạo mạn của những người con quý tộc, Nakroth được đánh giá là một chàng trai thật thà và có phần chất phát. Lúc này, cậu trai trẻ Nak vẫn chưa ý thức rằng mình khác với những người khác vì được sinh ra trong một gia đình quyền quý. Tuy nhiên, mọi thứ đã thay đổi khi lần đầu Nak đặt chân đến thủ đô. Định mệnh đã xảy ra khi người cha của cậu - một bá tước, có cơ hội đưa người con trai ưu tú của mình cùng đến kinh đô để diện kiến vị lãnh chúa. Đối với vị bá tước thì đây có thể nói là một vinh dự. Nhưng với cậu bé Nak, sự vui vẻ và phấn khích của hành trình này sẽ sớm trở thành hàng loạt những trải nghiệm nhớ đời.Hành trình của Nakroth đến thủ đô
+Những người bạn bè mới quen mà Nakroth vừa kết giao được có vẻ đối xử với cậu rất trịnh trọng, nhưng những điều này lại không hề là thật. Đằng sau những bộ mặt thân thiện lại lộ rõ sự khinh bỉ của họ dành cho Nak - một thằng quê mùa.
+
+Nakroth nhận ra được điều này. Ban đầu, cậu nhạy cảm và cố tỏ ra sự kiêu hãnh nhưng không được bao lâu cậu bé dần chán nản. Nak bắt đầu dần thay đổi từ cách ăn mặc đến cách nói chuyện làm sao cho giống với những con người thượng lưu này. Việc thay đổi này đòi hỏi số tiền đáng kể nhưng cha cậu tin rằng số tiền này là chi tiêu đúng chỗ. Sau những thay đổi này, Nak dần hòa nhập vào lối sống của vương quốc và sự quyền quý. Vào ngày Nakroth kết thúc hành trình ra mắt lãnh chúa, những người bạn mới của cậu đã tổ chức bữa tiệc lớn để vinh danh cậu. Tên tuổi của Nak dần tạo được sức ảnh hưởng trong tâm trí của những người lãnh đạo vương quốc. Sau khi quay về nhà, Nak cởi bỏ đi vỏ bọc quyền quý và không còn giữ phong thái quý tộc. Thay vào đó, cậu khoác lên mình những bộ đồ mộc mạc và có phần cũ kỹ. Không thể hiện sự ngạo mạn mà các quý tộc thường đối xử với người dân, cậu lắng nghe và tôn trọng những người nông dân tại nơi cậu sinh sống.
+
+Nak đã giải thích với cha cậu rằng: “Con muốn chứng minh rằng con có thể đạt được bất cứ điều gì mà con đặt hết tâm trí vào, nhưng cuộc sống đó không dành cho con. Con muốn là chính mình.” Ngài bá tước và những người nông dân trong thung lũng cảm thấy may mắn và tự hào về Nakroth. Chiến tranh nổ ra và sự thay đổi con người Nakroth
+Khi chiến tranh xảy ra, tất cả các thanh niên trong làng kể cả Nakroth đều phải ra trận. Tuy nhiên, những người cha, người mẹ đều không hoang mang hay lo sợ, vì họ tin rằng Nakroth chắc chắn sẽ dẫn dắt con họ đến vinh quang và an toàn trở về. 
+
+Và điều này đã đúng. Với sự hiểu biết của mình về chiến tranh cũng như năng khiếu về chiến lược, cậu liên tiếp chiến thắng trên khắp mặt trận. Điều này đã chứng minh rằng Nakroth là một thiên tài chưa từng xuất hiện trong nhiều thế kỷ qua của Vương quốc Norman. Với sự tinh thông chiến lược từ một người còn quá trẻ, cùng với sự ủng hộ từ những người bạn ở thủ đô, điều này đã giúp Nakroth dần trở thành một vị anh hùng được nhiều người ca tụng. Nhưng, khi cuộc chiến xảy ra dài đằng đẳng, Nak ngày càng trở nên mâu thuẫn. Vì cậu nhận ra chiến tranh chỉ là một trò chơi giữa những người quyền lực và giàu có của hai vương quốc. Ban đầu, cả hai đều muốn đánh bại đối phương, nhưng khi nhận ra kết quả khó xảy ra, họ dần lợi dụng chiến tranh để chiếm đoạt của cải cho riêng mình.
+
+Những người dân vô tội trở thành nô lệ, các nông trại cằn cỗi và những lãnh chúa trung lập yếu thế cũng bị đuổi khỏi chính lãnh thổ của họ. Lâu đài, vàng, châu báu, gia súc, thực phẩm và thậm chí những người dân cũng dần bị biến thành các chiến lợi phẩm bởi những người quyền quý.
+
+Nakroth phản đối những điều này. Tuy nhiên, cậu không thể thắng vị vua của đất nước. Cha cậu không trách cậu. Ông đã viết một bức tâm thư dài để an ủi, động viên Nakroth khi cậu đang chiến đấu trên tiền tuyến. Nakroth đã đọc bức thư và nhốt mình không đặt chân ra ngoài suốt ba ngày. Sự ra đời của Huyết Sắc Kỵ Sĩ
+Sau đó, cậu bước ra và vị chỉ huy trẻ tuổi đã ra một loạt mệnh lệnh kỳ lạ. Chẳng bao lâu sau, bỗng nhiên xuất hiện một đội quân với cái tên Huyết sắc kỵ sĩ nổi tiếng gần và vang danh đến cả Vương quốc kẻ thù Okka. Đội quân này không bao giờ thua, họ không nhân từ và không tha mạng bất kỳ ai.
+
+Năng khiếu chiến tranh bẩm sinh của Nakroth dần được bộc lộ. Đội quân của cậu không thể ngăn cản. Danh tiếng đáng sợ của Nak được xây dựng bởi những xác chết chất thành núi và máu chảy thành sông. Nakroth không phải là một con người thích sự giết chóc, đơn thuần cậu chỉ đang sử dụng những cách thức để có thể đưa trò chơi vương quyền kết thúc nhanh nhất. Chắc chắn có những người không đồng tình với những hành động của Nak, kể cả đồng minh và kẻ thù. Họ quyết định bắt tay nhau. Sự liên kết ngầm giữa hai bên đã khiến cho sự thống trị của đội quân Huyết sắc kết thúc một cách rùng rợn. Đội quân của Nakroth đã bị đánh úp trong một cuộc phục kích đầy thiên la địa võng. Số lượng quân địch dường như bất tận và quân tiếp viện của Nak không một ai đến.
+
+Nakroth vật lộn với một đội quân địch bất tận cùng với sự tấn công dữ dội của họ. Cuối cùng, cậu buộc phải mở ra một con đường tử xuyên qua quân địch để tẩu thoát. Một đội quân với hàng trăm quân sĩ và hơn hàng ngàn binh lính nay chỉ còn bảy người cùng chín con ngựa.
+
+Sau sự thất bại này, Nakroth vẫn được sự tôn trọng, vì vị vua khôn ngoan vẫn tin rằng chàng trai trẻ vẫn có thể tạo ra nhiều của cải cho Vương quốc Norman. Tuy nhiên, lòng tin của cậu đã không còn, Nakroth đã chọn cách từ chối. 
+
+Cậu nắm chặt trong tay mình một bộ móng tay đen bóng. Cùng với những đồng đội còn sót lại, Nak rời chiến tuyến, tuy nhiên cậu không quay về thung lũng nơi mình được sinh ra. Tất cả mọi người đều lo sợ rằng một ngày nào đó Nakroth sẽ quay trở lại và gieo rắc nỗi sợ thêm lần nữa.
+
+</p>
+           <hr>
+           <br>
+           <h1 style="color:red ; font-size:100px" > Bản đồ </h1>
+           <h1 style="color:red"> Cách tạo 1 bản đồ trong HTML </h1>
+           <blockquote>-Bản đồ ảnh có thể tạm hiểu là 1 loại hình ảnh đặc biệt, trên tấm hình sẽ có các vùng được xác định, mỗi vùng đó được gán với 1 cái liên kết.</blockquote>
+           <blockquote><b style="color:red  ; font-size:30px;">1) Các thành phần cấu tạo nên bản đồ ảnh:</b></blockquote>
+           <blockquote>- Thông thường thì 1 cái bản đồ ảnh được tạo nên bởi 2 thành phần:</blockquote>
+           <blockquote>&nbsp;<b>.</b> Thành phần thứ nhất chính là tấm hình mà bạn muốn dùng nó để làm cái bản đồ ảnh.</blockquote>
+            <blockquote>&nbsp;<b>.</b> Thành phần thứ 2 là 1 cái bản đồ hệ thống tọa độ ( chứa các vùng được xđ).</blockquote>
+            <blockquote>-Để tạo 1 cái bản đồ thì ta thực hiện 2 bc sau:</blockquote>
+             <blockquote>&nbsp;<b>.B1</b>: Tạo 1 cái bản đồ hệ thống tọa độ.</blockquote>
+              <blockquote>&nbsp;<b>.B2</b>: Kết hợp tấm hình và bản đồ hệ thống tọa độ để tạo thành bản đồ ảnh.</blockquote>
+              <blockquote><b style="color:red  ; font-size:30px;">2) Tạo bản đồ hệ thống tọa độ</b></blockquote>
+              <blockquote>-Để tạo 1 cái bản đồ hệ thống tọa độ thì chúng ta cần phải sd thẻ <b style="color:red">&lt;map&gt;</b> và <b style="color:red">&lt;area&gt;</b></blockquote>
+              <blockquote>-Trong đó:</blockquote>
+              <blockquote>&nbsp;<b>.</b> Thẻ <b style="color:red">&lt;map&gt;</b> dùng để xác định 1 cái bản đồ hệ thống tọa độ.</blockquote>
+              <blockquote>&nbsp;<b>.</b> Thẻ <b style="color:red"> &lt;area&gt;</b> dùng để xác định 1 vùng trên bản đồ hệ thống tọa độ.</blockquote>
+              <blockquote><b style="color:red  ; font-size:30px;">2.2) Kết hợp tấm hình và bản đồ hệ thống tọa độ</b></blockquote>
+              <blockquote>-Sau khi đã tạo xong 1 cái bản đồ hệ thống tọa độ thì công việc tiếp theo đó chính là sd thẻ <b style="color:red"> &lt;img&gt;</b> để chèn tấm hình mà bạn muốc dùng nó để làm bản đồ vào trang web</blockquote>
+              <blockquote>Bên trong thẻ <b style="color:red"> &lt;img&gt;</b> ta thiết lập thêm thuộc tính <b style="color:red">usemap</b> với cú pháp:</blockquote>
+              <blockquote style="border: 1px solid blue;"><b style="color:red">usemap</b> <b>  = "<b style="color:red">#</b>tên bản đồ" </b></blockquote>
+              <blockquote>để gán những vùng được xác định lên tấm hình, từ đó tạo thành bản đồ ảnh.</blockquote>
+              <blockquote><b style="color:red ; font-size:30px;">3) Các thuộc tính được sd bên trong thẻ &lt;area&gt;</b></blockquote>
+              <blockquote>-Dưới đây là danh sách những thuộc tính dc sd bên trong thẻ <b style="color:red">&lt;area&gt;</b>:</blockquote>
+              <blockquote><b style="color:red">-href</b>: Cú pháp <b 
+            style="color:red">href = "URL"</b> dùng để xđ đường dẫn tới tài liệu mà người dùng sẽ được chuyển đến khi họ nhấp vào vùng.</blockquote>
+            <blockquote><b style="color:red">-target</b>: Cú pháp <b style="color:red">target = "nơi mở tài liệu"</b> dùng để xđ nới mở tài liệu sẽ được mở khi người dùng nhấp vào.</blockquote>
+            <blockquote><b style="color:red">-download</b>: Cú pháp <b style="color:red">href = "tài liệu" download</b> thuộc tính này dùng để thiết lập việc: khi người dùng nhấp vào vùng thì cái tài liệu được gán với liên kết của vùng đó sẽ tự động dc tải xuống.</blockquote>
+            <blockquote><b style="color:red">-title</b>: cú pháp <b style="color:red">title = "tiêu đề của vùng"</b> thuộc tính <b style="color:red">title</b> dùng để xđ tiêu đề của vùng. Khi người dùng di chuyển con trỏ lên vùng thì tiêu đề sẽ được hiện lên</blockquote>
+            <blockquote><b style="color:red">-shape</b>: Cú pháp <b style="color:red">shape = "dạng hình"</b> thuộc tính này dùng để xác định hình dạng của vùng, nó có thể nhận <mark>1 trong 4 giá trị sau đây:</mark></blockquote>
+            <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:red">+default</b>: vùng sẽ chiếm toàn bộ tấm hình <mark>( thông thường thì giá trị này ko dc sđ vì nó gần như vô nghĩa).</mark></blockquote>
+            <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:red">+rect</b>: vùng có dạng hình <mark>vuông hoặc chữ nhật</mark></blockquote>
+            <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:red">+circle</b>: vùng có dạng hình <mark>tròn</mark>.</blockquote>
+            <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b style="color:red">+poly</b>: vùng có dạng hình <mark>da giác</mark></blockquote>
+            <blockquote><b style="color:red">-coords</b>: thuộc tính dùng để xđ một tập hợp các <mark>tọa độ tạo nên vùng</mark> (tùy vào hình dạng của các vùng mà cách xác định tọa độ sẽ khác nhau)</blockquote>
+            <blockquote><b style="color:red  ; font-size:30px;">4)  Cách xác định 1 vùng trên bản đồ ảnh</b></blockquote>
+            <blockquote><b style="color:red  ; font-size:20px;">4.1) Vùng hình vuông ( chữ nhật) <mark>rect</mark> </b></blockquote>
+
+            <blockquote>-Đối với vùng hv hay ch, thuộc tính <mark>coords</mark> phải nhận 1 giá trị gồm <mark>4 tham số:</mark></blockquote>
+
+            <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<b style="color:red">1) left</b>: xđ dựa theo khoảng cách từ <mark>cạnh trái của vùng</mark> đến <mark>cạnh trái của bản đồ ảnh.</mark></blockquote>
+            <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<b style="color:red">2) top</b>: xđ dựa theo khoảng cách từ <mark>cạnh trên của vùng</mark> đến <mark>cạnh trên của bản đồ.</mark></blockquote>
+            <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<b style="color:red">3) right</b>: xđ dựa theo khoảng cách từ <mark>cạnh phải của vùng</mark> đến <mark>cạnh trái của bản đồ ảnh.</mark></blockquote>
+
+
+
+            <blockquote>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp<b style="color:red">4) bottom</b>: xđ dựa theo khoảng cách từ <mark>cạnh dưới của vùng</mark> đến <mark>cạnh trên  của bản đồ ảnh.</mark></blockquote>
+
+            <blockquote>-Đối với hình tròn, thuộc tính <mark>coords</mark> phải nhận 1 giá trị gồm <mark>3 tham số:</mark></blockquote>
+
+
+
+
+            <blockquote><b style="color:red  ; font-size:20px;">4.2) Vùng hình tròn <mark>circle</mark></b></blockquote>
+            <blockquote>-Đối với hình tròn, thuộc tính <mark>coords</mark> phải nhận 1 giá trị gồm <mark>3 tham số:</mark></blockquote>
+            <blockquote><b style="color:red">(1)x</b>: xđ dựa vào khoảng cách từ tâm của hình tròn đến cạnh <mark>trái</mark> của bản đồ ảnh.</blockquote>
+            <blockquote><b style="color:red">(2)y</b>: xđ dựa theo khoảng cách từ tâm của hình tròn đến cạnh <mark>trên</mark> của bản đồ ảnh.</blockquote>
+            <blockquote><b style="color: red">(3)radius</b>: xđ dựa theo độ dài <mark>bán kính</mark> của hình tròn.</blockquote>
+
+
+
+            <blockquote><b style="color:red  ; font-size:20px;">4.3) Vùng hình da giác</b></blockquote>
+            <blockquote>Để xđ giá trị của thuộc tính <b style="color:red">coords</b> đối với 1 vùng "hình đa giác" thì chúng ta thực hiện lần lượt các bước như sau:</blockquote>
+            <blockquote><b style="color:red">B1:</b> Xác định <mark>số đỉnh của hình</mark> đa giác và vị trí của các đỉnh</blockquote>
+            <blockquote><b style="color:red">B2:</b> Xác định hướng đi của các đỉnh để tạo 1 vùng khép kín.</blockquote>
+            <blockquote><b style="color:red">B3:</b> Xác định <mark>tọa độ của từng đỉnh</mark> (cách xđ tọa độ của 1 đỉnh cũng giống như cách xđ tâm của hình tròn).</blockquote>
+            <blockquote><b style="color:red">B4:</b> Ghép tọa độ của các đỉnh lại thành giá trị của thuộc tính <mark>coords</mark>. ( Thứ tự ghép các đỉnh sẽ là đỉnh 1 đến đỉnh n.)</blockquote>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <p style="color: red"> &lt;head&gt; </p>
+                        <p style="color:red"> &lt;style&gt; </p>
+
+                        <p style="color:red"> &lt;/style&gt; </p>
+                        <p style="color: red"> &lt;/head&gt; </p>
+
+
+ 
+       </body>
+
+
+
+
+
+
+</html>
